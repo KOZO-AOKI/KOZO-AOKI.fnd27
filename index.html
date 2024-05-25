@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" hrfe="styles.css">
+    <title>第2TM製造部</title>
+    <style>
+        /* 左側に配置する画像のスタイル */
+        .left {
+            float: left;
+            margin-right: 10px;
+        }
+        /* 中央に配置する画像のスタイル */
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            height: 200px; /* 画像の高さに合わせて調整 */
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1 style="font-size:35px;">ようこそ第2TM製造部へ</h1>
+        <audio src="audio/21.mp3" controls loop></audio>
+        <!-- <img src="img/11.jpg" align="right">
+         -->
+        <!-- 左側に配置する画像 -->
+    <img src="img/11.jpg" alt="例の画像1" class="left" width="1250" height="700">
+        <!-- 中央に配置する画像を含むコンテナ -->
+    <div class="center">
+        <img src="img/12.jpg" alt="例の画像2" width="300" height="200">
+    </div>
+    
+    
+    <style>
+        /* スライドショーのスタイルを設定 */
+        #slideshow {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        .slide {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+        }
+
+        .active {
+            opacity: 1;
+        }
+    </style>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/css/lightbox.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/6-2-1.css">
+
+    <div id="slideshow">
+        <img class="slide active" src="img/10.jpg" alt="画像1">
+        <img class="slide" src="img/11.jpg" alt="画像2">
+        <img class="slide" src="img/12.jpg" alt="画像3">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
