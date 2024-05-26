@@ -27,27 +27,27 @@
 // // スライドショーを開始
 // showSlides();
 
-function createGator(event) {
-    console.log(1);
-    let cnt = document.getElementById("num").value;
-    console.log(cnt);
-    let resultString = "";
-    for (let i = 0; i < cnt; i++){
-        resultString += "○";
-    }
-    console.log(resultString);
-    document.getElementById("container2").innerText = resultString;
-}
+// function createGator(event) {
+//     console.log(1);
+//     let cnt = document.getElementById("num").value;
+//     console.log(cnt);
+//     let resultString = "";
+//     for (let i = 0; i < cnt; i++){
+//         resultString += "○";
+//     }
+//     console.log(resultString);
+//     document.getElementById("container2").innerText = resultString;
+// }
 
-const heading = document.querySelector("#heading");
+// const heading = document.querySelector("#heading");
 
-const Keyframes = {
-    opacity: [0, 1],
-    translate: ["0 50px",0],
-};
-const options = {
-    duration: 2000,
-    easing: "ease",
-};
+// const Keyframes = {
+//     opacity: [0, 1],
+//     translate: ["0 50px",0],
+// };
+// const options = {
+//     duration: 2000,
+//     easing: "ease",
+// };
 
-heading.animate(Keyframes, options);
+// heading.animate(Keyframes, options);
