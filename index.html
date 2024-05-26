@@ -1,39 +1,26 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" hrfe="styles.css">
     <title>第2TM製造部</title>
-    <style>
-        .left {
-            float: left;
-            margin-right: 10px;
-        }
-        
-        .center {
-            display: flex;
-            justify-content: center;
-            align-items: flex-start;
-            height: 200px;
-        }
-    </style>
+    <link rel="stylesheet" hrfe="style.css">
+    <script src="js/script.js" defer></script>
 </head>
 
 <body>
-    <div>
-        <h1 style="font-size:35px;">ようこそ第2TM製造部へ</h1>
-        <audio src="audio/21.mp3" controls loop></audio>
-        
-    <img src="img/11.jpg" class="left" width="1250" height="700">
-        
-    <div class="center">
-        <img src="img/12.jpg" width="300" height="200">
+    <h1 id="heading">ようこそ　マザー工場の第2TM製造部へ</h1>
+    <audio src="audio/21.mp3" controls loop autoplay></audio>
+    <img src="img/11.jpg" width="1250" height="700">
+    <div class="container">
+        <input type="text" id="num">
+        <button id="goGator" onclick="createGator(event)">組　検索</button>
     </div>
-    
-    
-    <style>
-        
+    <div id="container2"></div>
+
+<style>
+        /* スライドショーのスタイルを設定 */
         #slideshow {
             position: absolute;
             top: 0;
@@ -57,14 +44,16 @@
         }
     </style>
 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/css/lightbox.min.css" />
-        <link rel="stylesheet" type="text/css" href="css/6-2-1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/css/lightbox.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/6-2-1.css">
 
     <div id="slideshow">
         <img class="slide active" src="img/10.jpg" alt="画像1">
-        <img class="slide" src="img/11.jpg" alt="画像2">
-        <img class="slide" src="img/12.jpg" alt="画像3">
+        <img class="slide" src="img/13.jpg" alt="画像2">
+        <img class="slide" src="img/14.jpg" alt="画像3">
+        <img class="slide" src="img/12.jpg" alt="画像4">
     </div>
     <script src="script.js"></script>
 </body>
 </html>
+   
