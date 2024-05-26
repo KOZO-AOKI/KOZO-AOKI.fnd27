@@ -1,29 +1,16 @@
-.gallery{
-    columns: 4;
-    padding:0 15px;
-    margin:0;
-    }
-    
-    .gallery li {
-        margin-bottom: 20px;
-    list-style:none;
-    }
-    
-    .gallery img{
-        width:100%;
-        height:auto;
-        vertical-align: bottom;}
-    
-    @media only screen and (max-width: 900px) {
-        .gallery{
-        columns:3;
-        }	
-    }
-    
-    @media only screen and (max-width: 768px) {
-        .gallery{
-        columns: 2;
-        }	
-    }
+.container{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    margin: 0 auto;
+}
 
-    
+#container2{
+    width: 300px;
+    background-color: blue;
+    margin: 0 auto;
+}
+
+body {
+    text-align: center;
+}
