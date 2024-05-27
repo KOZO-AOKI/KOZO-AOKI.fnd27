@@ -39,13 +39,5 @@ function createGator(event) {
     document.getElementById("container2").innerText = resultString;
 }
 
-const heading = document.querySelector("#heading");
 
-const Keyframes = {
-    opacity: [0, 1],
-    translate: ["0 50px",0],
-};
-const options = {
-    duration: 2000,
-    easing: "ease",
-};
+
