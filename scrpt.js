@@ -13,7 +13,7 @@ function showSlides() {
     // 次のスライドを表示
     slideIndex++;
     if (slideIndex > slides.length) {
-        slideIndex = 1;
+        // slideIndex = 1;
     return;
       }
 
