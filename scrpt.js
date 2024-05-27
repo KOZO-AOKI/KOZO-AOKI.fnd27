@@ -49,5 +49,3 @@ const options = {
     duration: 2000,
     easing: "ease",
 };
-
-// heading.animate(Keyframes, options);
