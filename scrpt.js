@@ -27,17 +27,17 @@ let slideIndex = 0;
 // // スライドショーを開始
 // showSlides();
 
-function createGator(event) {
-    console.log(1);
-    let cnt = document.getElementById("num").value;
-    console.log(cnt);
-    let resultString = "";
-    for (let i = 0; i < cnt; i++){
-        resultString += "○";
-    }
-    console.log(resultString);
-    document.getElementById("container2").innerText = resultString;
-}
+// function createGator(event) {
+//     console.log(1);
+//     let cnt = document.getElementById("num").value;
+//     console.log(cnt);
+//     let resultString = "";
+//     for (let i = 0; i < cnt; i++){
+//         resultString += "○";
+//     }
+//     console.log(resultString);
+//     document.getElementById("container2").innerText = resultString;
+// }
 
 
 
